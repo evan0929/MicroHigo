@@ -10,7 +10,7 @@ import io.servicecomb.provider.rest.common.RestSchema;
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.CseSpringDemoCodegen", date = "2017-11-20T11:23:11.089Z")
 
 @RestSchema(schemaId = "higodb")
-@RequestMapping(path = "/higoDB", produces = MediaType.APPLICATION_JSON)
+@RequestMapping(path = "/higodb", produces = MediaType.APPLICATION_JSON)
 public class HigodbImpl {
 
     @Autowired

@@ -1,0 +1,440 @@
+[2017-11-21 20:37:07,457/CST][main][INFO]Write merged log4j config file to C:\Users\ii\Documents\GitHub\MicroHigo\higoDB\target\classes\config\merged.log4j.properties io.servicecomb.foundation.common.utils.Log4jUtils.outputFile(Log4jUtils.java:103)
+[2017-11-21 20:37:07,612/CST][main][INFO]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ed94a8b: startup date [Tue Nov 21 20:37:07 CST 2017]; root of context hierarchy org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582)
+[2017-11-21 20:37:07,848/CST][main][INFO]Loading XML bean definitions from file [C:\Users\ii\Documents\GitHub\MicroHigo\higoDB\target\classes\META-INF\spring\cse.higoDB.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:37:08,437/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/java-chassis-core/0.4.0/java-chassis-core-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:37:09,471/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/transport-rest-client/0.4.0/transport-rest-client-0.4.0.jar!/META-INF/spring/cse.transport.rest.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:37:09,529/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/handler-bizkeeper/0.4.0/handler-bizkeeper-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:37:09,582/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/handler-loadbalance/0.4.0/handler-loadbalance-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:37:09,639/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/foundation-metrics/0.4.0/foundation-metrics-0.4.0.jar!/META-INF/spring/metrics.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:37:09,683/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/com/huawei/paas/cse/cse-handler-tcc/2.2.7/cse-handler-tcc-2.2.7.jar!/META-INF/spring/cse.tcc.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:37:09,855/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/com/huawei/paas/cse/foundation-auth/2.2.7/foundation-auth-2.2.7.jar!/META-INF/spring/auth.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:37:09,899/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/foundation-common/0.4.0/foundation-common-0.4.0.jar!/META-INF/spring/common.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:37:09,942/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/com/huawei/paas/cse/cse-handler-cloud-extension/2.2.7/cse-handler-cloud-extension-2.2.7.jar!/META-INF/spring/services.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:37:10,005/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/foundation-config/0.4.0/foundation-config-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:37:10,051/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/foundation-vertx/0.4.0/foundation-vertx-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:37:11,018/CST][main][WARN]No URLs will be polled as dynamic configuration sources. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121)
+[2017-11-21 20:37:11,031/CST][main][INFO]To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)
+[2017-11-21 20:37:11,062/CST][main][INFO]create dynamic config: io.servicecomb.config.ConfigUtil.createDynamicConfig(ConfigUtil.java:156)
+[2017-11-21 20:37:11,320/CST][main][INFO]create local config: io.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:88)
+[2017-11-21 20:37:11,334/CST][main][INFO] jar:file:/C:/Users/ii/.m2/repository/com/huawei/paas/cse/cse-solution-service-engine/2.2.7/cse-solution-service-engine-2.2.7.jar!/microservice.yaml. io.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:90)
+[2017-11-21 20:37:11,348/CST][main][INFO] file:/C:/Users/ii/Documents/GitHub/MicroHigo/higoDB/target/classes/microservice.yaml. io.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:90)
+[2017-11-21 20:37:11,441/CST][main][INFO]get the SPI service success, the extend service is: class com.huawei.paas.config.archaius.sources.ConfigCenterConfigurationSourceImpl io.servicecomb.foundation.common.utils.SPIServiceUtils.getTargetService(SPIServiceUtils.java:52)
+[2017-11-21 20:37:13,842/CST][config-center-vert.x-eventloop-thread-0][INFO]add network interface name:wlan1,host address:192.168.0.112 io.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:104)
+[2017-11-21 20:37:13,871/CST][config-center-vert.x-eventloop-thread-0][INFO]add network interface name:eth6,host address:192.168.56.1 io.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:104)
+[2017-11-21 20:37:14,067/CST][config-center-vert.x-eventloop-thread-0][INFO]add host name from localhost:DESKTOP-NPBOI24,host address:192.168.0.112 io.servicecomb.foundation.common.net.NetUtils.<clinit>(NetUtils.java:62)
+[2017-11-21 20:37:14,199/CST][config-center-vert.x-eventloop-thread-0][ERROR]sign request failed, uri is https://cse.cn-north-1.myhwclouds.com:443/v3/default/configuration/items?dimensionsInfo=higoDB@higo#0.0.1, message: unable to access the configured AKSKCipher: default com.huawei.paas.foundation.auth.AuthHeaderProviderImpl.getSignAuthHeaders(AuthHeaderProviderImpl.java:58)
+[2017-11-21 20:37:14,542/CST][main][INFO]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+[2017-11-21 20:37:15,688/CST][vertx-blocked-thread-checker][WARN]Thread Thread[config-center-vert.x-eventloop-thread-0,5,main] has been blocked for 2216 ms, time limit is 2000 io.vertx.core.impl.BlockedThreadChecker$1.run(BlockedThreadChecker.java:53)
+[2017-11-21 20:37:16,724/CST][main][INFO]Found swagger generator context: io.servicecomb.swagger.generator.springmvc.SpringmvcSwaggerGeneratorContext io.servicecomb.swagger.generator.core.CompositeSwaggerGeneratorContext.<init>(CompositeSwaggerGeneratorContext.java:39)
+[2017-11-21 20:37:16,742/CST][main][INFO]Found swagger generator context: io.servicecomb.swagger.generator.jaxrs.JaxrsSwaggerGeneratorContext io.servicecomb.swagger.generator.core.CompositeSwaggerGeneratorContext.<init>(CompositeSwaggerGeneratorContext.java:39)
+[2017-11-21 20:37:16,758/CST][main][INFO]Found swagger generator context: io.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext io.servicecomb.swagger.generator.core.CompositeSwaggerGeneratorContext.<init>(CompositeSwaggerGeneratorContext.java:39)
+[2017-11-21 20:37:17,027/CST][config-center-vert.x-eventloop-thread-0][ERROR]fetch config fail com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$8(ConfigCenterClient.java:287)
+[2017-11-21 20:37:17,657/CST][main][INFO]load microservice config, name=higoDB, paths=[jar:file:/C:/Users/ii/.m2/repository/com/huawei/paas/cse/cse-solution-service-engine/2.2.7/cse-solution-service-engine-2.2.7.jar!/microservice.yaml, file:/C:/Users/ii/Documents/GitHub/MicroHigo/higoDB/target/classes/microservice.yaml] io.servicecomb.serviceregistry.definition.MicroserviceDefinition.logConfigPath(MicroserviceDefinition.java:133)
+[2017-11-21 20:37:17,837/CST][main][INFO]It is running in the normal mode, a separated service registry is required io.servicecomb.serviceregistry.registry.ServiceRegistryFactory.create(ServiceRegistryFactory.java:81)
+[2017-11-21 20:37:18,190/CST][main][INFO]executor group 2, thread per group 4. io.servicecomb.core.executor.FixedThreadExecutor.<init>(FixedThreadExecutor.java:53)
+[2017-11-21 20:37:18,772/CST][config-center-vert.x-eventloop-thread-0][WARN]Config value cache changed: action:create; item:[nihao, sadf, test0000, g, h, gsw, j, k, l, dsafsaaaa, te, q, dafd, loglevel, dsaf, hello] com.huawei.paas.config.archaius.sources.ConfigCenterConfigurationSourceImpl$UpdateHandler.handle(ConfigCenterConfigurationSourceImpl.java:124)
+[2017-11-21 20:37:19,513/CST][main][INFO]generate cse.gen.higo.higoDB.higodb.HigodbImplIntf in classLoader sun.misc.Launcher$AppClassLoader@2a139a55. io.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:181)
+[2017-11-21 20:37:19,690/CST][main][INFO]generate swagger for higo/higoDB/higodb, swagger: ---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "swagger definition for com.service.higoDB.controller.HigodbImpl"
+  x-java-interface: "cse.gen.higo.higoDB.higodb.HigodbImplIntf"
+basePath: "/higodb"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /helloworld:
+    get:
+      operationId: "helloworld"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "name"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "string"
+  /getDiscount:
+    get:
+      operationId: "getDiscount"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "location"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "string"
+ io.servicecomb.core.definition.schema.ProducerSchemaFactory.createSchema(ProducerSchemaFactory.java:104)
+[2017-11-21 20:37:19,705/CST][main][INFO]register schema higo/higoDB/higodb io.servicecomb.core.definition.loader.SchemaLoader.registerSchema(SchemaLoader.java:90)
+[2017-11-21 20:37:19,775/CST][main][WARN]address /0.0.0.0:8080, auto select a host address to publish 192.168.0.112:8080, maybe not the correct one io.servicecomb.serviceregistry.RegistryUtils.genPublishIpPort(RegistryUtils.java:171)
+[2017-11-21 20:37:19,799/CST][main][INFO]choose io.servicecomb.transport.rest.vertx.VertxRestTransport for rest. io.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:85)
+[2017-11-21 20:37:19,815/CST][main][INFO]choose io.servicecomb.transport.highway.HighwayTransport for highway. io.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:85)
+[2017-11-21 20:37:19,870/CST][transport-vert.x-eventloop-thread-0][INFO]init vertx http dispatcher io.servicecomb.transport.rest.vertx.VertxRestDispatcher io.servicecomb.transport.rest.vertx.RestServerVerticle.initDispatcher(RestServerVerticle.java:85)
+[2017-11-21 20:37:19,894/CST][transport-vert.x-eventloop-thread-0][INFO]set uploads directory to null. io.servicecomb.transport.rest.vertx.AbstractVertxHttpDispatcher.createBodyHandler(AbstractVertxHttpDispatcher.java:48)
+[2017-11-21 20:37:20,006/CST][transport-vert.x-eventloop-thread-0][INFO]rest listen success. address=0.0.0.0:8080 io.servicecomb.transport.rest.vertx.RestServerVerticle.lambda$startListen$0(RestServerVerticle.java:93)
+[2017-11-21 20:37:20,034/CST][main][INFO]endpoint to publish: rest://192.168.0.112:8080 io.servicecomb.core.transport.TransportManager.init(TransportManager.java:57)
+[2017-11-21 20:37:20,058/CST][transport-vert.x-eventloop-thread-6][WARN]highway listen address is not configured, will not listen. io.servicecomb.transport.highway.HighwayServerVerticle.startListen(HighwayServerVerticle.java:58)
+[2017-11-21 20:37:20,131/CST][main][INFO]add schema to service paths. higo:higoDB:higodb. io.servicecomb.common.rest.locator.ServicePathManager.addSchema(ServicePathManager.java:91)
+[2017-11-21 20:37:20,146/CST][main][INFO]Swagger mapped "{[/higodb/getDiscount/], method=[GET], produces=[application/json]}" onto public abstract java.lang.String cse.gen.higo.higoDB.higodb.HigodbImplIntf.getDiscount(java.lang.String) io.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2017-11-21 20:37:20,161/CST][main][INFO]Swagger mapped "{[/higodb/helloworld/], method=[GET], produces=[application/json]}" onto public abstract java.lang.String cse.gen.higo.higoDB.higodb.HigodbImplIntf.helloworld(java.lang.String) io.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2017-11-21 20:37:20,178/CST][main][INFO]running microservice register task. io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:57)
+[2017-11-21 20:37:26,989/CST][main][INFO]Microservice exists in service center, no need to register. id=fe113873ce6611e7b7d70255ac105111 appId=higo, name=higoDB, version=0.0.1 io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:64)
+[2017-11-21 20:37:27,136/CST][main][INFO]SchemaIds is equals to service center. id=fe113873ce6611e7b7d70255ac105111 appId=higo, name=higoDB, version=0.0.1, schemaIds=[higodb] io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.checkSchemaIdSet(MicroserviceRegisterTask.java:127)
+[2017-11-21 20:37:27,266/CST][main][INFO]schemaId higodb exists true io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.registerSchemas(MicroserviceRegisterTask.java:143)
+[2017-11-21 20:37:27,288/CST][main][INFO]read MicroserviceRegisterTask status is FINISHED io.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2017-11-21 20:37:27,303/CST][main][INFO]running microservice instance register task. io.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:59)
+[2017-11-21 20:37:27,818/CST][main][INFO]Register microservice instance success. microserviceId=fe113873ce6611e7b7d70255ac105111 instanceId=bc8780c8ceb811e7abdf0255ac105517 endpoints=[rest://192.168.0.112:8080] lease 120s io.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:77)
+[2017-11-21 20:37:27,856/CST][main][INFO]read MicroserviceInstanceRegisterTask status is FINISHED io.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2017-11-21 20:37:28,111/CST][main][INFO]Monitor data sender started. Configured data providers is {com.huawei.paas.cse.tcc.upload.TransactionMonitorDataProvider,com.huawei.paas.monitor.HealthMonitorDataProvider,} com.huawei.paas.monitor.DataFactory.start(DataFactory.java:78)
+[2017-11-21 20:37:58,099/CST][Service Center Task][WARN]sc task interval changed from -1 to 30 io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.beginCycle(ServiceCenterTaskMonitor.java:38)
+[2017-11-21 20:37:58,101/CST][Service Center Task][WARN]sc task interval changed from -1 to 30 io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.beginCycle(ServiceCenterTaskMonitor.java:38)
+[2017-11-21 20:38:18,313/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:38:59,273/CST][Service Center Task][WARN]sc task taken more than 1175ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 20:39:18,503/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:39:29,727/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because java.net.SocketTimeoutException Read timed out, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 20:39:31,189/CST][Service Center Task][WARN]sc task taken more than 3090ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 20:39:37,347/CST][config-center-vert.x-eventloop-thread-0][ERROR]config refresh fail Failed to create SSL connection com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$9(ConfigCenterClient.java:300)
+[2017-11-21 20:39:39,647/CST][config-center-vert.x-eventloop-thread-0][ERROR]config refresh fail Connection timed out: no further information: cse.cn-north-1.myhwclouds.com/43.254.0.22:443 com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$9(ConfigCenterClient.java:300)
+[2017-11-21 20:39:44,768/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because org.apache.http.conn.ConnectTimeoutException Connect to cse.cn-north-1.myhwclouds.com:443 [cse.cn-north-1.myhwclouds.com/43.254.0.22] failed: connect timed out, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 20:39:52,860/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because org.apache.http.conn.ConnectTimeoutException Connect to cse.cn-north-1.myhwclouds.com:443 [cse.cn-north-1.myhwclouds.com/43.254.0.22] failed: connect timed out, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 20:40:18,578/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:41:18,616/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:41:59,338/CST][Service Center Task][WARN]sc task taken more than 1191ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 20:42:18,893/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:42:49,588/CST][Service Center Task][WARN]sc task taken more than 21489ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 20:43:19,009/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:43:25,918/CST][config-center-vert.x-eventloop-thread-0][ERROR]config refresh fail Connection was closed com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$9(ConfigCenterClient.java:300)
+[2017-11-21 20:43:28,105/CST][registry-vert.x-eventloop-thread-0][ERROR]PUT /v4/default/registry/microservices/fe113873ce6611e7b7d70255ac105111/instances/bc8780c8ceb811e7abdf0255ac105517/heartbeat fail, endpoint is cse.cn-north-1.myhwclouds.com:443, message: The timeout period of 30000ms has been exceeded io.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:85)
+[2017-11-21 20:43:28,156/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/microservices/fe113873ce6611e7b7d70255ac105111/instances/bc8780c8ceb811e7abdf0255ac105517/heartbeat] failed, retry. io.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:79)
+[2017-11-21 20:43:28,177/CST][registry-vert.x-eventloop-thread-0][INFO]Using next service center address cse.cn-north-1.myhwclouds.com:443. io.servicecomb.serviceregistry.client.IpPortManager.returnWithLog(IpPortManager.java:94)
+[2017-11-21 20:43:28,844/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because java.net.SocketTimeoutException Read timed out, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 20:43:32,906/CST][Service Center Task][WARN]sc task taken more than 34806ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 20:43:34,467/CST][Service Center Task][WARN]sc task taken more than 1498ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 20:43:43,915/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because org.apache.http.conn.ConnectTimeoutException Connect to cse.cn-north-1.myhwclouds.com:443 [cse.cn-north-1.myhwclouds.com/43.254.0.22] failed: connect timed out, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 20:43:51,984/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because org.apache.http.conn.ConnectTimeoutException Connect to cse.cn-north-1.myhwclouds.com:443 [cse.cn-north-1.myhwclouds.com/43.254.0.22] failed: connect timed out, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 20:43:54,590/CST][registry-vert.x-eventloop-thread-0][ERROR]PUT /v4/default/registry/microservices/fe113873ce6611e7b7d70255ac105111/instances/bc8780c8ceb811e7abdf0255ac105517/heartbeat fail, endpoint is cse.cn-north-1.myhwclouds.com:443, message: Connection was closed io.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:85)
+[2017-11-21 20:43:56,183/CST][config-center-vert.x-eventloop-thread-0][ERROR]config refresh fail Connection was closed com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$9(ConfigCenterClient.java:300)
+[2017-11-21 20:43:59,559/CST][Service Center Task][WARN]sc task taken more than 1459ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 20:44:00,114/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because org.apache.http.conn.ConnectTimeoutException Connect to cse.cn-north-1.myhwclouds.com:443 [cse.cn-north-1.myhwclouds.com/43.254.0.22] failed: connect timed out, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 20:44:06,231/CST][config-center-vert.x-eventloop-thread-0][ERROR]config refresh fail Connection was closed com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$9(ConfigCenterClient.java:300)
+[2017-11-21 20:44:08,295/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because org.apache.http.conn.ConnectTimeoutException Connect to cse.cn-north-1.myhwclouds.com:443 [cse.cn-north-1.myhwclouds.com/43.254.0.22] failed: connect timed out, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 20:44:19,057/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:44:45,717/CST][main][INFO]Write merged log4j config file to C:\Users\ii\Documents\GitHub\MicroHigo\higoDB\target\classes\config\merged.log4j.properties io.servicecomb.foundation.common.utils.Log4jUtils.outputFile(Log4jUtils.java:103)
+[2017-11-21 20:44:45,869/CST][main][INFO]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ed94a8b: startup date [Tue Nov 21 20:44:45 CST 2017]; root of context hierarchy org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582)
+[2017-11-21 20:44:46,105/CST][main][INFO]Loading XML bean definitions from file [C:\Users\ii\Documents\GitHub\MicroHigo\higoDB\target\classes\META-INF\spring\cse.higoDB.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:44:46,706/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/java-chassis-core/0.4.0/java-chassis-core-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:44:47,729/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/transport-rest-client/0.4.0/transport-rest-client-0.4.0.jar!/META-INF/spring/cse.transport.rest.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:44:47,791/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/handler-bizkeeper/0.4.0/handler-bizkeeper-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:44:47,876/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/handler-loadbalance/0.4.0/handler-loadbalance-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:44:47,990/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/foundation-metrics/0.4.0/foundation-metrics-0.4.0.jar!/META-INF/spring/metrics.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:44:48,041/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/com/huawei/paas/cse/cse-handler-tcc/2.2.7/cse-handler-tcc-2.2.7.jar!/META-INF/spring/cse.tcc.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:44:48,185/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/com/huawei/paas/cse/foundation-auth/2.2.7/foundation-auth-2.2.7.jar!/META-INF/spring/auth.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:44:48,277/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/foundation-common/0.4.0/foundation-common-0.4.0.jar!/META-INF/spring/common.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:44:48,368/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/com/huawei/paas/cse/cse-handler-cloud-extension/2.2.7/cse-handler-cloud-extension-2.2.7.jar!/META-INF/spring/services.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:44:48,430/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/foundation-config/0.4.0/foundation-config-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:44:48,476/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/foundation-vertx/0.4.0/foundation-vertx-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 20:44:49,514/CST][main][WARN]No URLs will be polled as dynamic configuration sources. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121)
+[2017-11-21 20:44:49,527/CST][main][INFO]To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)
+[2017-11-21 20:44:49,560/CST][main][INFO]create dynamic config: io.servicecomb.config.ConfigUtil.createDynamicConfig(ConfigUtil.java:156)
+[2017-11-21 20:44:49,815/CST][main][INFO]create local config: io.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:88)
+[2017-11-21 20:44:49,830/CST][main][INFO] jar:file:/C:/Users/ii/.m2/repository/com/huawei/paas/cse/cse-solution-service-engine/2.2.7/cse-solution-service-engine-2.2.7.jar!/microservice.yaml. io.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:90)
+[2017-11-21 20:44:49,843/CST][main][INFO] file:/C:/Users/ii/Documents/GitHub/MicroHigo/higoDB/target/classes/microservice.yaml. io.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:90)
+[2017-11-21 20:44:49,943/CST][main][INFO]get the SPI service success, the extend service is: class com.huawei.paas.config.archaius.sources.ConfigCenterConfigurationSourceImpl io.servicecomb.foundation.common.utils.SPIServiceUtils.getTargetService(SPIServiceUtils.java:52)
+[2017-11-21 20:44:52,318/CST][config-center-vert.x-eventloop-thread-0][INFO]add network interface name:wlan1,host address:192.168.0.112 io.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:104)
+[2017-11-21 20:44:52,344/CST][config-center-vert.x-eventloop-thread-0][INFO]add network interface name:eth6,host address:192.168.56.1 io.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:104)
+[2017-11-21 20:44:52,530/CST][config-center-vert.x-eventloop-thread-0][INFO]add host name from localhost:DESKTOP-NPBOI24,host address:192.168.0.112 io.servicecomb.foundation.common.net.NetUtils.<clinit>(NetUtils.java:62)
+[2017-11-21 20:44:52,676/CST][config-center-vert.x-eventloop-thread-0][ERROR]sign request failed, uri is https://cse.cn-north-1.myhwclouds.com:443/v3/default/configuration/items?dimensionsInfo=higoDB@higo#0.0.1, message: unable to access the configured AKSKCipher: default com.huawei.paas.foundation.auth.AuthHeaderProviderImpl.getSignAuthHeaders(AuthHeaderProviderImpl.java:58)
+[2017-11-21 20:44:52,984/CST][main][INFO]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+[2017-11-21 20:44:54,212/CST][vertx-blocked-thread-checker][WARN]Thread Thread[config-center-vert.x-eventloop-thread-0,5,main] has been blocked for 2250 ms, time limit is 2000 io.vertx.core.impl.BlockedThreadChecker$1.run(BlockedThreadChecker.java:53)
+[2017-11-21 20:44:55,168/CST][main][INFO]Found swagger generator context: io.servicecomb.swagger.generator.springmvc.SpringmvcSwaggerGeneratorContext io.servicecomb.swagger.generator.core.CompositeSwaggerGeneratorContext.<init>(CompositeSwaggerGeneratorContext.java:39)
+[2017-11-21 20:44:55,209/CST][main][INFO]Found swagger generator context: io.servicecomb.swagger.generator.jaxrs.JaxrsSwaggerGeneratorContext io.servicecomb.swagger.generator.core.CompositeSwaggerGeneratorContext.<init>(CompositeSwaggerGeneratorContext.java:39)
+[2017-11-21 20:44:55,226/CST][main][INFO]Found swagger generator context: io.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext io.servicecomb.swagger.generator.core.CompositeSwaggerGeneratorContext.<init>(CompositeSwaggerGeneratorContext.java:39)
+[2017-11-21 20:44:55,345/CST][config-center-vert.x-eventloop-thread-0][ERROR]fetch config fail com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$8(ConfigCenterClient.java:287)
+[2017-11-21 20:44:56,238/CST][main][INFO]load microservice config, name=higoDB, paths=[jar:file:/C:/Users/ii/.m2/repository/com/huawei/paas/cse/cse-solution-service-engine/2.2.7/cse-solution-service-engine-2.2.7.jar!/microservice.yaml, file:/C:/Users/ii/Documents/GitHub/MicroHigo/higoDB/target/classes/microservice.yaml] io.servicecomb.serviceregistry.definition.MicroserviceDefinition.logConfigPath(MicroserviceDefinition.java:133)
+[2017-11-21 20:44:56,443/CST][main][INFO]It is running in the normal mode, a separated service registry is required io.servicecomb.serviceregistry.registry.ServiceRegistryFactory.create(ServiceRegistryFactory.java:81)
+[2017-11-21 20:44:56,927/CST][main][INFO]executor group 2, thread per group 4. io.servicecomb.core.executor.FixedThreadExecutor.<init>(FixedThreadExecutor.java:53)
+[2017-11-21 20:44:56,962/CST][config-center-vert.x-eventloop-thread-0][ERROR]sign request failed, uri is https://cse.cn-north-1.myhwclouds.com:443/v3/default/configuration/items?dimensionsInfo=higoDB@higo#0.0.1, message: unable to access the configured AKSKCipher: default com.huawei.paas.foundation.auth.AuthHeaderProviderImpl.getSignAuthHeaders(AuthHeaderProviderImpl.java:58)
+[2017-11-21 20:44:57,267/CST][config-center-vert.x-eventloop-thread-0][ERROR]fetch config fail com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$8(ConfigCenterClient.java:287)
+[2017-11-21 20:44:58,293/CST][main][INFO]generate cse.gen.higo.higoDB.higodb.HigodbImplIntf in classLoader sun.misc.Launcher$AppClassLoader@2a139a55. io.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:181)
+[2017-11-21 20:44:58,471/CST][main][INFO]generate swagger for higo/higoDB/higodb, swagger: ---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "swagger definition for com.service.higoDB.controller.HigodbImpl"
+  x-java-interface: "cse.gen.higo.higoDB.higodb.HigodbImplIntf"
+basePath: "/higodb"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /helloworld:
+    get:
+      operationId: "helloworld"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "name"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "string"
+  /getDiscount:
+    get:
+      operationId: "getDiscount"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "location"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "string"
+ io.servicecomb.core.definition.schema.ProducerSchemaFactory.createSchema(ProducerSchemaFactory.java:104)
+[2017-11-21 20:44:58,485/CST][main][INFO]register schema higo/higoDB/higodb io.servicecomb.core.definition.loader.SchemaLoader.registerSchema(SchemaLoader.java:90)
+[2017-11-21 20:44:58,555/CST][main][WARN]address /0.0.0.0:8080, auto select a host address to publish 192.168.0.112:8080, maybe not the correct one io.servicecomb.serviceregistry.RegistryUtils.genPublishIpPort(RegistryUtils.java:171)
+[2017-11-21 20:44:58,576/CST][main][INFO]choose io.servicecomb.transport.rest.vertx.VertxRestTransport for rest. io.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:85)
+[2017-11-21 20:44:58,590/CST][main][INFO]choose io.servicecomb.transport.highway.HighwayTransport for highway. io.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:85)
+[2017-11-21 20:44:58,636/CST][transport-vert.x-eventloop-thread-0][INFO]init vertx http dispatcher io.servicecomb.transport.rest.vertx.VertxRestDispatcher io.servicecomb.transport.rest.vertx.RestServerVerticle.initDispatcher(RestServerVerticle.java:85)
+[2017-11-21 20:44:58,662/CST][transport-vert.x-eventloop-thread-0][INFO]set uploads directory to null. io.servicecomb.transport.rest.vertx.AbstractVertxHttpDispatcher.createBodyHandler(AbstractVertxHttpDispatcher.java:48)
+[2017-11-21 20:44:58,768/CST][transport-vert.x-eventloop-thread-0][INFO]rest listen success. address=0.0.0.0:8080 io.servicecomb.transport.rest.vertx.RestServerVerticle.lambda$startListen$0(RestServerVerticle.java:93)
+[2017-11-21 20:44:58,797/CST][main][INFO]endpoint to publish: rest://192.168.0.112:8080 io.servicecomb.core.transport.TransportManager.init(TransportManager.java:57)
+[2017-11-21 20:44:58,821/CST][transport-vert.x-eventloop-thread-6][WARN]highway listen address is not configured, will not listen. io.servicecomb.transport.highway.HighwayServerVerticle.startListen(HighwayServerVerticle.java:58)
+[2017-11-21 20:44:58,891/CST][main][INFO]add schema to service paths. higo:higoDB:higodb. io.servicecomb.common.rest.locator.ServicePathManager.addSchema(ServicePathManager.java:91)
+[2017-11-21 20:44:58,905/CST][main][INFO]Swagger mapped "{[/higodb/getDiscount/], method=[GET], produces=[application/json]}" onto public abstract java.lang.String cse.gen.higo.higoDB.higodb.HigodbImplIntf.getDiscount(java.lang.String) io.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2017-11-21 20:44:58,920/CST][main][INFO]Swagger mapped "{[/higodb/helloworld/], method=[GET], produces=[application/json]}" onto public abstract java.lang.String cse.gen.higo.higoDB.higodb.HigodbImplIntf.helloworld(java.lang.String) io.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2017-11-21 20:44:58,934/CST][main][INFO]running microservice register task. io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:57)
+[2017-11-21 20:44:59,933/CST][main][INFO]Microservice exists in service center, no need to register. id=fe113873ce6611e7b7d70255ac105111 appId=higo, name=higoDB, version=0.0.1 io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:64)
+[2017-11-21 20:45:00,089/CST][main][INFO]SchemaIds is equals to service center. id=fe113873ce6611e7b7d70255ac105111 appId=higo, name=higoDB, version=0.0.1, schemaIds=[higodb] io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.checkSchemaIdSet(MicroserviceRegisterTask.java:127)
+[2017-11-21 20:45:00,261/CST][main][INFO]schemaId higodb exists true io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.registerSchemas(MicroserviceRegisterTask.java:143)
+[2017-11-21 20:45:00,279/CST][main][INFO]read MicroserviceRegisterTask status is FINISHED io.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2017-11-21 20:45:00,293/CST][main][INFO]running microservice instance register task. io.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:59)
+[2017-11-21 20:45:00,497/CST][main][INFO]Register microservice instance success. microserviceId=fe113873ce6611e7b7d70255ac105111 instanceId=bc8780c8ceb811e7abdf0255ac105517 endpoints=[rest://192.168.0.112:8080] lease 120s io.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:77)
+[2017-11-21 20:45:00,530/CST][main][INFO]read MicroserviceInstanceRegisterTask status is FINISHED io.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2017-11-21 20:45:00,715/CST][main][INFO]Monitor data sender started. Configured data providers is {com.huawei.paas.cse.tcc.upload.TransactionMonitorDataProvider,com.huawei.paas.monitor.HealthMonitorDataProvider,} com.huawei.paas.monitor.DataFactory.start(DataFactory.java:78)
+[2017-11-21 20:45:02,104/CST][config-center-vert.x-eventloop-thread-0][WARN]Config value cache changed: action:create; item:[nihao, sadf, test0000, g, h, gsw, j, k, l, dsafsaaaa, te, q, dafd, loglevel, dsaf, hello] com.huawei.paas.config.archaius.sources.ConfigCenterConfigurationSourceImpl$UpdateHandler.handle(ConfigCenterConfigurationSourceImpl.java:124)
+[2017-11-21 20:45:30,713/CST][Service Center Task][WARN]sc task interval changed from -1 to 30 io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.beginCycle(ServiceCenterTaskMonitor.java:38)
+[2017-11-21 20:45:30,713/CST][Service Center Task][WARN]sc task interval changed from -1 to 30 io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.beginCycle(ServiceCenterTaskMonitor.java:38)
+[2017-11-21 20:45:31,944/CST][Service Center Task][WARN]sc task taken more than 1231ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 20:45:57,091/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:46:12,077/CST][transport-vert.x-eventloop-thread-0][ERROR]locate path failed, status:Not Found, http method:GET, path:/higoDB/higodb//getDiscount/, microserviceName:higoDB io.servicecomb.common.rest.locator.OperationLocator.locate(OperationLocator.java:72)
+[2017-11-21 20:46:31,048/CST][transport-vert.x-eventloop-thread-0][ERROR]locate path failed, status:Not Found, http method:GET, path:/higoDB/higodb/getDiscount/, microserviceName:higoDB io.servicecomb.common.rest.locator.OperationLocator.locate(OperationLocator.java:72)
+[2017-11-21 20:46:35,714/CST][Service Center Task][WARN]sc task taken more than 5001ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 20:46:57,177/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:47:57,275/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:48:57,321/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:49:57,396/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:50:57,480/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:51:57,581/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:52:27,782/CST][config-center-vert.x-eventloop-thread-0][ERROR]config refresh fail Failed to create SSL connection com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$9(ConfigCenterClient.java:300)
+[2017-11-21 20:52:33,023/CST][Service Center Task][WARN]sc task taken more than 2311ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 20:52:57,702/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:53:02,330/CST][Service Center Task][WARN]sc task taken more than 1618ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 20:53:35,229/CST][config-center-vert.x-eventloop-thread-0][ERROR]config refresh fail Connection was closed com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$9(ConfigCenterClient.java:300)
+[2017-11-21 20:53:57,750/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:54:57,877/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:55:57,930/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:56:02,891/CST][Service Center Task][WARN]sc task taken more than 2178ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 20:56:58,024/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:57:20,116/CST][Service Center Task][WARN]sc task taken more than 19404ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 20:57:22,384/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because java.net.SocketException Connection reset, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 20:57:58,116/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:58:58,215/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 20:59:58,309/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:00:58,465/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:01:58,619/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:02:58,728/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:03:58,804/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:04:58,880/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:05:34,070/CST][Service Center Task][WARN]sc task taken more than 3357ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 21:05:58,964/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:06:59,032/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:07:59,120/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:09:36,199/CST][main][INFO]Write merged log4j config file to C:\Users\ii\Documents\GitHub\MicroHigo\higoDB\target\classes\config\merged.log4j.properties io.servicecomb.foundation.common.utils.Log4jUtils.outputFile(Log4jUtils.java:103)
+[2017-11-21 21:09:36,359/CST][main][INFO]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ed94a8b: startup date [Tue Nov 21 21:09:36 CST 2017]; root of context hierarchy org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582)
+[2017-11-21 21:09:36,627/CST][main][INFO]Loading XML bean definitions from file [C:\Users\ii\Documents\GitHub\MicroHigo\higoDB\target\classes\META-INF\spring\cse.higoDB.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 21:09:37,280/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/java-chassis-core/0.4.0/java-chassis-core-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 21:09:38,363/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/transport-rest-client/0.4.0/transport-rest-client-0.4.0.jar!/META-INF/spring/cse.transport.rest.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 21:09:38,439/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/handler-bizkeeper/0.4.0/handler-bizkeeper-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 21:09:38,522/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/handler-loadbalance/0.4.0/handler-loadbalance-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 21:09:38,584/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/foundation-metrics/0.4.0/foundation-metrics-0.4.0.jar!/META-INF/spring/metrics.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 21:09:38,698/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/com/huawei/paas/cse/cse-handler-tcc/2.2.7/cse-handler-tcc-2.2.7.jar!/META-INF/spring/cse.tcc.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 21:09:38,801/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/com/huawei/paas/cse/foundation-auth/2.2.7/foundation-auth-2.2.7.jar!/META-INF/spring/auth.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 21:09:38,885/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/foundation-common/0.4.0/foundation-common-0.4.0.jar!/META-INF/spring/common.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 21:09:38,968/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/com/huawei/paas/cse/cse-handler-cloud-extension/2.2.7/cse-handler-cloud-extension-2.2.7.jar!/META-INF/spring/services.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 21:09:39,038/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/foundation-config/0.4.0/foundation-config-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 21:09:39,080/CST][main][INFO]Loading XML bean definitions from URL [jar:file:/C:/Users/ii/.m2/repository/io/servicecomb/foundation-vertx/0.4.0/foundation-vertx-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+[2017-11-21 21:09:40,068/CST][main][WARN]No URLs will be polled as dynamic configuration sources. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121)
+[2017-11-21 21:09:40,081/CST][main][INFO]To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)
+[2017-11-21 21:09:40,114/CST][main][INFO]create dynamic config: io.servicecomb.config.ConfigUtil.createDynamicConfig(ConfigUtil.java:156)
+[2017-11-21 21:09:40,378/CST][main][INFO]create local config: io.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:88)
+[2017-11-21 21:09:40,393/CST][main][INFO] jar:file:/C:/Users/ii/.m2/repository/com/huawei/paas/cse/cse-solution-service-engine/2.2.7/cse-solution-service-engine-2.2.7.jar!/microservice.yaml. io.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:90)
+[2017-11-21 21:09:40,407/CST][main][INFO] file:/C:/Users/ii/Documents/GitHub/MicroHigo/higoDB/target/classes/microservice.yaml. io.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:90)
+[2017-11-21 21:09:40,508/CST][main][INFO]get the SPI service success, the extend service is: class com.huawei.paas.config.archaius.sources.ConfigCenterConfigurationSourceImpl io.servicecomb.foundation.common.utils.SPIServiceUtils.getTargetService(SPIServiceUtils.java:52)
+[2017-11-21 21:09:42,888/CST][config-center-vert.x-eventloop-thread-0][INFO]add network interface name:wlan1,host address:192.168.0.112 io.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:104)
+[2017-11-21 21:09:42,916/CST][config-center-vert.x-eventloop-thread-0][INFO]add network interface name:eth6,host address:192.168.56.1 io.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:104)
+[2017-11-21 21:09:43,097/CST][config-center-vert.x-eventloop-thread-0][INFO]add host name from localhost:DESKTOP-NPBOI24,host address:192.168.0.112 io.servicecomb.foundation.common.net.NetUtils.<clinit>(NetUtils.java:62)
+[2017-11-21 21:09:43,233/CST][config-center-vert.x-eventloop-thread-0][ERROR]sign request failed, uri is https://cse.cn-north-1.myhwclouds.com:443/v3/default/configuration/items?dimensionsInfo=higoDB@higo#0.0.1, message: unable to access the configured AKSKCipher: default com.huawei.paas.foundation.auth.AuthHeaderProviderImpl.getSignAuthHeaders(AuthHeaderProviderImpl.java:58)
+[2017-11-21 21:09:43,511/CST][main][INFO]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+[2017-11-21 21:09:44,765/CST][vertx-blocked-thread-checker][WARN]Thread Thread[config-center-vert.x-eventloop-thread-0,5,main] has been blocked for 2244 ms, time limit is 2000 io.vertx.core.impl.BlockedThreadChecker$1.run(BlockedThreadChecker.java:53)
+[2017-11-21 21:09:45,658/CST][config-center-vert.x-eventloop-thread-0][ERROR]fetch config fail com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$8(ConfigCenterClient.java:287)
+[2017-11-21 21:09:45,665/CST][main][INFO]Found swagger generator context: io.servicecomb.swagger.generator.springmvc.SpringmvcSwaggerGeneratorContext io.servicecomb.swagger.generator.core.CompositeSwaggerGeneratorContext.<init>(CompositeSwaggerGeneratorContext.java:39)
+[2017-11-21 21:09:45,699/CST][main][INFO]Found swagger generator context: io.servicecomb.swagger.generator.jaxrs.JaxrsSwaggerGeneratorContext io.servicecomb.swagger.generator.core.CompositeSwaggerGeneratorContext.<init>(CompositeSwaggerGeneratorContext.java:39)
+[2017-11-21 21:09:45,716/CST][main][INFO]Found swagger generator context: io.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext io.servicecomb.swagger.generator.core.CompositeSwaggerGeneratorContext.<init>(CompositeSwaggerGeneratorContext.java:39)
+[2017-11-21 21:09:46,591/CST][main][INFO]load microservice config, name=higoDB, paths=[jar:file:/C:/Users/ii/.m2/repository/com/huawei/paas/cse/cse-solution-service-engine/2.2.7/cse-solution-service-engine-2.2.7.jar!/microservice.yaml, file:/C:/Users/ii/Documents/GitHub/MicroHigo/higoDB/target/classes/microservice.yaml] io.servicecomb.serviceregistry.definition.MicroserviceDefinition.logConfigPath(MicroserviceDefinition.java:133)
+[2017-11-21 21:09:46,750/CST][main][INFO]It is running in the normal mode, a separated service registry is required io.servicecomb.serviceregistry.registry.ServiceRegistryFactory.create(ServiceRegistryFactory.java:81)
+[2017-11-21 21:09:47,184/CST][main][INFO]executor group 2, thread per group 4. io.servicecomb.core.executor.FixedThreadExecutor.<init>(FixedThreadExecutor.java:53)
+[2017-11-21 21:09:47,823/CST][config-center-vert.x-eventloop-thread-0][WARN]Config value cache changed: action:create; item:[nihao, sadf, test0000, g, h, gsw, j, k, l, dsafsaaaa, te, q, dafd, loglevel, dsaf, hello] com.huawei.paas.config.archaius.sources.ConfigCenterConfigurationSourceImpl$UpdateHandler.handle(ConfigCenterConfigurationSourceImpl.java:124)
+[2017-11-21 21:09:48,614/CST][main][INFO]generate cse.gen.higo.higoDB.higodb.HigodbImplIntf in classLoader sun.misc.Launcher$AppClassLoader@2a139a55. io.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:181)
+[2017-11-21 21:09:48,788/CST][main][INFO]generate swagger for higo/higoDB/higodb, swagger: ---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "swagger definition for com.service.higoDB.controller.HigodbImpl"
+  x-java-interface: "cse.gen.higo.higoDB.higodb.HigodbImplIntf"
+basePath: "/higodb"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /helloworld:
+    get:
+      operationId: "helloworld"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "name"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "string"
+  /getDiscount:
+    get:
+      operationId: "getDiscount"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "location"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "string"
+ io.servicecomb.core.definition.schema.ProducerSchemaFactory.createSchema(ProducerSchemaFactory.java:104)
+[2017-11-21 21:09:48,802/CST][main][INFO]register schema higo/higoDB/higodb io.servicecomb.core.definition.loader.SchemaLoader.registerSchema(SchemaLoader.java:90)
+[2017-11-21 21:09:48,870/CST][main][WARN]address /0.0.0.0:30114, auto select a host address to publish 192.168.0.112:30114, maybe not the correct one io.servicecomb.serviceregistry.RegistryUtils.genPublishIpPort(RegistryUtils.java:171)
+[2017-11-21 21:09:48,892/CST][main][INFO]choose io.servicecomb.transport.rest.vertx.VertxRestTransport for rest. io.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:85)
+[2017-11-21 21:09:48,905/CST][main][INFO]choose io.servicecomb.transport.highway.HighwayTransport for highway. io.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:85)
+[2017-11-21 21:09:48,950/CST][transport-vert.x-eventloop-thread-0][INFO]init vertx http dispatcher io.servicecomb.transport.rest.vertx.VertxRestDispatcher io.servicecomb.transport.rest.vertx.RestServerVerticle.initDispatcher(RestServerVerticle.java:85)
+[2017-11-21 21:09:48,974/CST][transport-vert.x-eventloop-thread-0][INFO]set uploads directory to null. io.servicecomb.transport.rest.vertx.AbstractVertxHttpDispatcher.createBodyHandler(AbstractVertxHttpDispatcher.java:48)
+[2017-11-21 21:09:49,083/CST][transport-vert.x-eventloop-thread-0][INFO]rest listen success. address=0.0.0.0:30114 io.servicecomb.transport.rest.vertx.RestServerVerticle.lambda$startListen$0(RestServerVerticle.java:93)
+[2017-11-21 21:09:49,112/CST][main][INFO]endpoint to publish: rest://192.168.0.112:30114 io.servicecomb.core.transport.TransportManager.init(TransportManager.java:57)
+[2017-11-21 21:09:49,135/CST][transport-vert.x-eventloop-thread-6][WARN]highway listen address is not configured, will not listen. io.servicecomb.transport.highway.HighwayServerVerticle.startListen(HighwayServerVerticle.java:58)
+[2017-11-21 21:09:49,202/CST][main][INFO]add schema to service paths. higo:higoDB:higodb. io.servicecomb.common.rest.locator.ServicePathManager.addSchema(ServicePathManager.java:91)
+[2017-11-21 21:09:49,217/CST][main][INFO]Swagger mapped "{[/higodb/getDiscount/], method=[GET], produces=[application/json]}" onto public abstract java.lang.String cse.gen.higo.higoDB.higodb.HigodbImplIntf.getDiscount(java.lang.String) io.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2017-11-21 21:09:49,231/CST][main][INFO]Swagger mapped "{[/higodb/helloworld/], method=[GET], produces=[application/json]}" onto public abstract java.lang.String cse.gen.higo.higoDB.higodb.HigodbImplIntf.helloworld(java.lang.String) io.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+[2017-11-21 21:09:49,244/CST][main][INFO]running microservice register task. io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:57)
+[2017-11-21 21:09:49,790/CST][main][INFO]Microservice exists in service center, no need to register. id=fe113873ce6611e7b7d70255ac105111 appId=higo, name=higoDB, version=0.0.1 io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:64)
+[2017-11-21 21:09:49,971/CST][main][INFO]SchemaIds is equals to service center. id=fe113873ce6611e7b7d70255ac105111 appId=higo, name=higoDB, version=0.0.1, schemaIds=[higodb] io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.checkSchemaIdSet(MicroserviceRegisterTask.java:127)
+[2017-11-21 21:09:50,097/CST][main][INFO]schemaId higodb exists true io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.registerSchemas(MicroserviceRegisterTask.java:143)
+[2017-11-21 21:09:50,119/CST][main][INFO]read MicroserviceRegisterTask status is FINISHED io.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2017-11-21 21:09:50,132/CST][main][INFO]running microservice instance register task. io.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:59)
+[2017-11-21 21:09:50,311/CST][main][INFO]Register microservice instance success. microserviceId=fe113873ce6611e7b7d70255ac105111 instanceId=425e7b0acebd11e7b7d70255ac105111 endpoints=[rest://192.168.0.112:30114] lease 120s io.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:77)
+[2017-11-21 21:09:50,327/CST][main][INFO]read MicroserviceInstanceRegisterTask status is FINISHED io.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2017-11-21 21:09:50,430/CST][main][INFO]Monitor data sender started. Configured data providers is {com.huawei.paas.cse.tcc.upload.TransactionMonitorDataProvider,com.huawei.paas.monitor.HealthMonitorDataProvider,} com.huawei.paas.monitor.DataFactory.start(DataFactory.java:78)
+[2017-11-21 21:10:20,425/CST][Service Center Task][WARN]sc task interval changed from -1 to 30 io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.beginCycle(ServiceCenterTaskMonitor.java:38)
+[2017-11-21 21:10:20,426/CST][Service Center Task][WARN]sc task interval changed from -1 to 30 io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.beginCycle(ServiceCenterTaskMonitor.java:38)
+[2017-11-21 21:10:47,336/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:11:47,418/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)

@@ -9,8 +9,6 @@ cse:
     chain:
       Provider:
         default: bizkeeper-provider,qps-flowcontrol-provider
-      Consumer:
-        default: bizkeeper-consumer,loadbalance,qps-flowcontrol-consumer
   service:
     registry:
       address: https://cse.cn-north-1.myhwclouds.com:443
@@ -25,7 +23,7 @@ cse:
     client:
       serverUri: https://cse.cn-north-1.myhwclouds.com:443
   rest:
-    address: 0.0.0.0:8080
+    address: 0.0.0.0:30114
   credentials:
     accessKey: UZLI6CLENEO6D2ANV35U
     secretKey: nAQ7jQyynhuDckGGtzNYMJGDZoFqaEfNwhadIXXP

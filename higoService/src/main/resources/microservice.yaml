@@ -1,7 +1,7 @@
 APPLICATION_ID: higo
 service_description:
   name: higoService
-  version: 0.0.1
+  version: 0.0.2
   properties:
     allowCrossApp: false
 cse:
@@ -18,8 +18,12 @@ cse:
   monitor:
     client:
       serverUri: https://cse.cn-north-1.myhwclouds.com:443
+  handler:
+    chain:
+      Consumer:
+        default: loadbalance,bizkeeper-consumer,perf-stats
   rest:
-    address: 0.0.0.0:8080
+    address: 0.0.0.0:8081
   credentials:
     accessKey: UZLI6CLENEO6D2ANV35U
     secretKey: nAQ7jQyynhuDckGGtzNYMJGDZoFqaEfNwhadIXXP
