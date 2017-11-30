@@ -22,8 +22,5 @@ public class HigoServiceApplication {
     public static void main(String[] args) throws Exception {
         Log4jUtils.init();
         BeanUtils.init();
-        String discountResult =
-    	        restTemplate.getForObject("cse://higodb/getDiscount?location=beijing", String.class);
-        System.out.println("beijing:"+discountResult);
     }
 }
