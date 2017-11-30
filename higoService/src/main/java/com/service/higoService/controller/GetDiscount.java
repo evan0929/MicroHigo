@@ -20,8 +20,8 @@ public class GetDiscount {
     @RequestMapping(value = "/getDiscount", produces = { "application/json" }, method = RequestMethod.GET)
     public String getDiscount(@RequestParam(value = "location", required = true) String location) {
     	
-        String discountResult = restTemplate.getForObject("cse://higoDB/higodb/getDiscount?location="+location, String.class);
         String loginResult = restTemplate.getForObject("cse://higouser/higouser/login?userName=evan&passWord=123456", String.class);
+        String discountResult = restTemplate.getForObject("cse://higoDB/higoDB/getDiscount?location="+location, String.class);
         return "login:"+loginResult+",discount:"+discountResult;
     }
     
