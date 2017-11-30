@@ -15,7 +15,8 @@ public class HigouserImpl {
 
     @Autowired
     private HigouserDelegate userHigouserDelegate;
-
+    @Autowired
+	private LoginImpl loginImpl;
 
     @RequestMapping(value = "/helloworld",
         produces = { "application/json" }, 
@@ -25,4 +26,9 @@ public class HigouserImpl {
         return userHigouserDelegate.helloworld(name);
     }
 
+    @RequestMapping(value = "/login", produces = { "application/json" }, method = RequestMethod.GET)
+	public String login(@RequestParam(value = "userName", required = true) String userName,
+			@RequestParam(value = "passWord", required = true) String passWord) {
+		return loginImpl.UserLogin(userName, passWord);
+	}
 }
