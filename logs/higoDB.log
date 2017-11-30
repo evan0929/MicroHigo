@@ -438,3 +438,112 @@ paths:
 [2017-11-21 21:11:47,418/CST][metrics][INFO]Cycle stat output:
              call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
  io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:12:47,472/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:13:10,921/CST][registry-vert.x-eventloop-thread-0][ERROR]java.io.IOException: 远程主机强迫关闭了一个现有的连接。 io.vertx.core.net.impl.ConnectionBase.handleException(ConnectionBase.java:192)
+[2017-11-21 21:13:10,956/CST][registry-vert.x-eventloop-thread-0][ERROR]PUT /v4/default/registry/microservices/fe113873ce6611e7b7d70255ac105111/instances/425e7b0acebd11e7b7d70255ac105111/heartbeat fail, endpoint is cse.cn-north-1.myhwclouds.com:443, message: 远程主机强迫关闭了一个现有的连接。 io.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:85)
+[2017-11-21 21:13:10,972/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/microservices/fe113873ce6611e7b7d70255ac105111/instances/425e7b0acebd11e7b7d70255ac105111/heartbeat] failed, retry. io.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:79)
+[2017-11-21 21:13:10,987/CST][registry-vert.x-eventloop-thread-0][INFO]Using next service center address cse.cn-north-1.myhwclouds.com:443. io.servicecomb.serviceregistry.client.IpPortManager.returnWithLog(IpPortManager.java:94)
+[2017-11-21 21:13:18,734/CST][config-center-vert.x-eventloop-thread-0][ERROR]config refresh fail Connection timed out: no further information: cse.cn-north-1.myhwclouds.com/43.254.0.22:443 com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$9(ConfigCenterClient.java:300)
+[2017-11-21 21:13:23,736/CST][config-center-vert.x-eventloop-thread-0][ERROR]config refresh fail Connection timed out: no further information: cse.cn-north-1.myhwclouds.com/43.254.0.22:443 com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$9(ConfigCenterClient.java:300)
+[2017-11-21 21:13:27,393/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because java.net.SocketTimeoutException Read timed out, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 21:13:32,011/CST][registry-vert.x-eventloop-thread-0][ERROR]PUT /v4/default/registry/microservices/fe113873ce6611e7b7d70255ac105111/instances/425e7b0acebd11e7b7d70255ac105111/heartbeat fail, endpoint is cse.cn-north-1.myhwclouds.com:443, message: Connection timed out: no further information: cse.cn-north-1.myhwclouds.com/43.254.0.22:443 io.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:85)
+[2017-11-21 21:13:32,040/CST][Service Center Task][ERROR]Disconnected from service center and heartbeat failed for microservice instance=fe113873ce6611e7b7d70255ac105111/425e7b0acebd11e7b7d70255ac105111 io.servicecomb.serviceregistry.task.MicroserviceInstanceHeartbeatTask.heartbeat(MicroserviceInstanceHeartbeatTask.java:70)
+[2017-11-21 21:13:32,060/CST][Service Center Task][INFO]read MicroserviceInstanceHeartbeatTask status is READY io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.onMicroserviceInstanceHeartbeatTask(MicroserviceRegisterTask.java:49)
+[2017-11-21 21:13:32,085/CST][Service Center Task][INFO]read MicroserviceInstanceHeartbeatTask status is READY io.servicecomb.serviceregistry.task.ServiceCenterTask.onMicroserviceInstanceHeartbeatTask(ServiceCenterTask.java:63)
+[2017-11-21 21:13:32,107/CST][Service Center Task][WARN]sc task taken more than 41680ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 21:13:32,128/CST][Service Center Task][INFO]running microservice register task. io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:57)
+[2017-11-21 21:13:45,157/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because org.apache.http.conn.ConnectTimeoutException Connect to cse.cn-north-1.myhwclouds.com:443 [cse.cn-north-1.myhwclouds.com/43.254.0.22] failed: connect timed out, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 21:13:47,504/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:13:53,180/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=higo&type=microservice&serviceName=higoDB&version=0.0.1 fail, endpoint is cse.cn-north-1.myhwclouds.com:443, message: Connection timed out: no further information: cse.cn-north-1.myhwclouds.com/43.254.0.22:443 io.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:85)
+[2017-11-21 21:13:53,242/CST][registry-vert.x-eventloop-thread-0][WARN]invoke service [/v4/default/registry/existence] failed, retry. io.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.retry(ServiceRegistryClientImpl.java:79)
+[2017-11-21 21:13:53,274/CST][registry-vert.x-eventloop-thread-0][INFO]Using next service center address cse.cn-north-1.myhwclouds.com:443. io.servicecomb.serviceregistry.client.IpPortManager.returnWithLog(IpPortManager.java:94)
+[2017-11-21 21:13:55,892/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because org.apache.http.conn.ConnectTimeoutException Connect to cse.cn-north-1.myhwclouds.com:443 [cse.cn-north-1.myhwclouds.com/43.254.0.22] failed: connect timed out, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 21:14:14,307/CST][registry-vert.x-eventloop-thread-0][ERROR]GET /v4/default/registry/existence?appId=higo&type=microservice&serviceName=higoDB&version=0.0.1 fail, endpoint is cse.cn-north-1.myhwclouds.com:443, message: Connection timed out: no further information: cse.cn-north-1.myhwclouds.com/43.254.0.22:443 io.servicecomb.serviceregistry.client.http.RestUtils.lambda$null$1(RestUtils.java:85)
+[2017-11-21 21:14:14,700/CST][registry-vert.x-eventloop-thread-0][WARN]Service already exists. io.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.lambda$null$0(ServiceRegistryClientImpl.java:111)
+[2017-11-21 21:14:14,716/CST][Service Center Task][ERROR]Registry microservice failed. appId=higo, name=higoDB, version=0.0.1 io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:77)
+[2017-11-21 21:14:14,733/CST][Service Center Task][INFO]read MicroserviceRegisterTask status is READY io.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2017-11-21 21:14:15,167/CST][Service Center Task][WARN]sc task taken more than 43039ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 21:14:15,219/CST][Service Center Task][INFO]running microservice register task. io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:57)
+[2017-11-21 21:14:15,944/CST][Service Center Task][INFO]Microservice exists in service center, no need to register. id=fe113873ce6611e7b7d70255ac105111 appId=higo, name=higoDB, version=0.0.1 io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:64)
+[2017-11-21 21:14:16,170/CST][Service Center Task][INFO]SchemaIds is equals to service center. id=fe113873ce6611e7b7d70255ac105111 appId=higo, name=higoDB, version=0.0.1, schemaIds=[higodb] io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.checkSchemaIdSet(MicroserviceRegisterTask.java:127)
+[2017-11-21 21:14:16,367/CST][Service Center Task][INFO]schemaId higodb exists true io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.registerSchemas(MicroserviceRegisterTask.java:143)
+[2017-11-21 21:14:16,427/CST][Service Center Task][INFO]read MicroserviceRegisterTask status is FINISHED io.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2017-11-21 21:14:16,470/CST][Service Center Task][INFO]running microservice instance register task. io.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:59)
+[2017-11-21 21:14:16,603/CST][Service Center Task][INFO]Register microservice instance success. microserviceId=fe113873ce6611e7b7d70255ac105111 instanceId=425e7b0acebd11e7b7d70255ac105111 endpoints=[rest://192.168.0.112:30114] lease 120s io.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:77)
+[2017-11-21 21:14:16,645/CST][Service Center Task][INFO]read MicroserviceInstanceRegisterTask status is FINISHED io.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+[2017-11-21 21:14:16,762/CST][Service Center Task][WARN]sc task taken more than 1543ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 21:14:20,373/CST][config-center-vert.x-eventloop-thread-0][ERROR]config refresh fail Connection was closed com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$9(ConfigCenterClient.java:300)
+[2017-11-21 21:14:47,621/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:15:21,524/CST][Service Center Task][WARN]sc task taken more than 1098ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 21:15:47,695/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:16:24,515/CST][Service Center Task][WARN]sc task taken more than 4088ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 21:16:42,925/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because java.net.SocketTimeoutException Read timed out, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 21:16:47,784/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:16:58,697/CST][config-center-vert.x-eventloop-thread-0][ERROR]java.io.IOException: 远程主机强迫关闭了一个现有的连接。 io.vertx.core.net.impl.ConnectionBase.handleException(ConnectionBase.java:192)
+[2017-11-21 21:16:58,768/CST][config-center-vert.x-eventloop-thread-0][ERROR]config refresh fail 远程主机强迫关闭了一个现有的连接。 com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$9(ConfigCenterClient.java:300)
+[2017-11-21 21:16:59,963/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because org.apache.http.conn.ConnectTimeoutException Connect to cse.cn-north-1.myhwclouds.com:443 [cse.cn-north-1.myhwclouds.com/43.254.0.22] failed: Read timed out, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 21:17:10,076/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because org.apache.http.conn.ConnectTimeoutException Connect to cse.cn-north-1.myhwclouds.com:443 [cse.cn-north-1.myhwclouds.com/43.254.0.22] failed: connect timed out, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 21:17:13,093/CST][Service Center Task][WARN]sc task taken more than 22667ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 21:17:22,235/CST][config-center-vert.x-eventloop-thread-0][ERROR]config refresh fail Connection was closed com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$9(ConfigCenterClient.java:300)
+[2017-11-21 21:17:23,804/CST][config-center-vert.x-eventloop-thread-0][ERROR]config refresh fail Connection timed out: no further information: cse.cn-north-1.myhwclouds.com/43.254.0.22:443 com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$9(ConfigCenterClient.java:300)
+[2017-11-21 21:17:47,903/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:17:48,959/CST][config-center-vert.x-eventloop-thread-0][ERROR]config refresh fail Connection was closed com.huawei.paas.config.client.ConfigCenterClient$ConfigRefresh.lambda$null$9(ConfigCenterClient.java:300)
+[2017-11-21 21:18:47,990/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:19:48,008/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:20:48,052/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:21:48,089/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:21:51,808/CST][Service Center Task][WARN]sc task taken more than 1383ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 21:22:48,153/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:23:48,234/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:24:48,257/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:24:51,877/CST][Service Center Task][WARN]sc task taken more than 1452ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 21:25:48,342/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:26:48,415/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:27:48,508/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:28:48,554/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:28:51,544/CST][Service Center Task][WARN]sc task taken more than 1118ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 21:29:48,600/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:29:52,452/CST][Service Center Task][WARN]sc task taken more than 2026ms to execute io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.endCycle(ServiceCenterTaskMonitor.java:50)
+[2017-11-21 21:30:48,628/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)
+[2017-11-21 21:31:34,338/CST][cse-monitor-datafactory-3-1][WARN]Upload monitor data error because org.apache.http.conn.ConnectTimeoutException Connect to cse.cn-north-1.myhwclouds.com:443 [cse.cn-north-1.myhwclouds.com/43.254.0.22] failed: connect timed out, you can disable it by setting cse.monitor.client.enable to false. com.huawei.paas.monitor.DataFactory.sendData(DataFactory.java:145)
+[2017-11-21 21:31:48,695/CST][metrics][INFO]Cycle stat output:
+             call count       msg count        avg tps    avg latency(ms) |[0,20)    [20,100)  [100,300) [300,500) [500,...) 
+ io.servicecomb.foundation.metrics.performance.PerfStatMonitorMgr.onCycle(PerfStatMonitorMgr.java:78)

@@ -1,14 +1,10 @@
-APPLICATION_ID: higo
+APPLICATION_ID: springmvctest
 service_description:
-  name: higoDB
+  name: higouser
   version: 0.0.1
   properties:
     allowCrossApp: false
 cse:
-  handler:
-    chain:
-      Provider:
-        default: bizkeeper-provider,qps-flowcontrol-provider
   service:
     registry:
       address: https://cse.cn-north-1.myhwclouds.com:443
@@ -23,8 +19,8 @@ cse:
     client:
       serverUri: https://cse.cn-north-1.myhwclouds.com:443
   rest:
-    address: 0.0.0.0:8080
+    address: 0.0.0.0:8082
   credentials:
-    accessKey: UZLI6CLENEO6D2ANV35U
-    secretKey: nAQ7jQyynhuDckGGtzNYMJGDZoFqaEfNwhadIXXP
+    accessKey: ak
+    secretKey: sk
     akskCustomCipher: default
