@@ -7,7 +7,7 @@ public class LoginImpl implements Login {
 
 	@Override
 	public String UserLogin(String userName, String passWord) {
-		return "success";
+		return "success,version:1.0,";
 	}
 
 }
